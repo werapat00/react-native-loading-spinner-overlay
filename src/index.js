@@ -22,7 +22,7 @@ import {
   Text,
   Modal
 } from 'react-native';
-import Spinner as SpinKit from 'react-native-spinkit';
+import SpinKit from 'react-native-spinkit';
 
 const styles = StyleSheet.create({
   container: {
