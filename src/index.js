@@ -22,7 +22,7 @@ import {
   Text,
   Modal
 } from 'react-native';
-import Spinner from 'react-native-spinkit';
+import Spinner as SpinKit from 'react-native-spinkit';
 
 const styles = StyleSheet.create({
   container: {
@@ -110,7 +110,7 @@ export default class Spinner extends React.Component {
             styles.background,
             { backgroundColor: this.props.overlayColor }
           ]}>
-          <Spinner
+          <SpinKit
             type={'Bounce'}
             color={this.props.color}
             size={this.props.size}
